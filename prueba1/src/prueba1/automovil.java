@@ -10,28 +10,28 @@ package prueba1;
 public class automovil {
 
 	/**
-	 * Propiedad String marca
+	 * Atributo marca
 	 */
 	private String marca;
 	/**
-	 * Propiedad String color
+	 * Atributo color
 	 */
 	private String color;
 	/**
-	 * Propiedad int puertas
+	 * Atributo puertas
 	 */
 	private int puertas;
 	/**
-	 * Propiedad double precio
+	 * Atributo precio
 	 */
 	private double precio;
 	
 	/**
 	 * Constructor con parámetros
-	 * @param <i>marca</i>
-	 * @param <i>color</i>
-	 * @param <i>puertas</i>
-	 * @param <i>precio</i>
+	 * @param marca <i>Parámetro marca </i>
+	 * @param color <i>Parámetro color</i>
+	 * @param puertas <i>Parámetro puertas</i>
+	 * @param precio <i>Parámetro precio</i>
 	 */
 	public automovil(String marca, String color, int puertas, double
 	precio) {
@@ -44,7 +44,8 @@ public class automovil {
 	
 	/**
 	 * Método público que calcula el precio con descuento
-	 * @param precio
+	 * @param precio <i>Descuento del precio del automovil</i>
+	 * @see automovil
 	 */
 	public void CalcularDto(double precio) {
 		precio=precio*0.10;
